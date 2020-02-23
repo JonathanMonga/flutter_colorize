@@ -1,13 +1,3 @@
-import 'dart:async';
+library flutter_colorize;
 
-import 'package:flutter/services.dart';
-
-class FlutterColorize {
-  static const MethodChannel _channel =
-      const MethodChannel('flutter_colorize');
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+export 'package:flutter_colorize/src/flutter_colorize.dart';
