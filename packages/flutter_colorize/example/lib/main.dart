@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
           child: Container(
             width: 200,
             height: 200,
-            decoration: BoxDecoration(color: FlutterColorize.fcAeroblue),
+            decoration: BoxDecoration(color: FlutterColorize.fcZomp),
           ),
         ),
       ),
