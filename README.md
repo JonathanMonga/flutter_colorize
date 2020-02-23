@@ -76,6 +76,10 @@ In order to run the flutter example, you must have Flutter installed. For instal
 5. Run `flutter packages get`
 6. Run `flutter run`
 
+## Thanks
+
+- Image from : [Joe Theodore](https://unsplash.com/@jortheodore)
+
 # License
 
     MIT License
