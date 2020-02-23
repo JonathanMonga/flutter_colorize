@@ -1,3 +1,4 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+- The initial release of this library that include more
+  than 1000 pre-loaded colors.

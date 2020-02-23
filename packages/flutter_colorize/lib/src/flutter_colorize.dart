@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_colorize/src/hex.dart';
 
-/// Collection of 1000+ 
+/// Collection of 1000+ pre-loaded colors.
 class FlutterColorize {
   FlutterColorize._();
 
