@@ -1,39 +1,49 @@
 ```dart
-
 import 'package:flutter/material.dart';
 import 'package:flutter_colorize/flutter_colorize.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: const Text('Flutter Colorize'),
+        ),
+        body: MyApp(),
+      ),
+    ),
+  );
+}
 
 class MyApp extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  MyAppState createState() => MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
-  @override
-  void initState() {
-    super.initState();
-  }
-
+class MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter Colorize'),
-          centerTitle: true,
-        ),
-        body: Center(
-          child: Container(
-            width: 200,
-            height: 200,
-            decoration: BoxDecoration(color: FlutterColorize.fcZomp),
-          ),
-        ),
+    var names = FlutterColorize.names;
+
+    return Center(
+      child: GridView.count(
+        crossAxisCount: 3,
+        children: List.generate(names.length, (index) {
+          return Center(
+            child: ListTile(
+              title: Text(names[index], style: TextStyle(fontSize: 14)),
+              subtitle: Container(
+                  width: 100,
+                  height: 100,
+                  color: FlutterColorize.find(names[index])),
+            ),
+          );
+        }),
       ),
     );
   }
 }
+
 
 ```

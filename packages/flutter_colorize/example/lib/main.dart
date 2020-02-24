@@ -34,10 +34,9 @@ class MyAppState extends State<MyApp> {
             child: ListTile(
               title: Text(names[index], style: TextStyle(fontSize: 14)),
               subtitle: Container(
-                width: 100,
-                height: 100,
-                color: FlutterColorize.find(names[index]),
-              ),
+                  width: 100,
+                  height: 100,
+                  color: FlutterColorize.find(names[index])),
             ),
           );
         }),

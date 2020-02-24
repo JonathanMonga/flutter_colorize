@@ -78,7 +78,7 @@ In order to run the flutter example, you must have Flutter installed. For instal
 
 ## Thanks
 
-- Image from : [Joe Theodore](https://unsplash.com/@jortheodore)
+- Image from : [Joe Theodore](https://unsplash.com/@joetheodore)
 
 # License
 
