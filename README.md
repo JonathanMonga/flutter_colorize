@@ -28,6 +28,9 @@ dependencies:
 ```dart
 import 'package:flutter_colorize/flutter_colorize.dart';
 ```
+## Overview
+
+<img src="https://raw.githubusercontent.com/JonathanMonga/flutter_colorize/master/images/image.png" align="center" alt="Header" height="500" width="100%"/>
 
 ## How To Use
 
