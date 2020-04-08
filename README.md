@@ -4,7 +4,7 @@
 
 Collection of 1000 + pre-loaded colors for Flutter.
 
-[![Pub](https://img.shields.io/badge/pub-1.0.0)](https://pub.dev/packages/flutter_colorize)
+[![Pub](https://img.shields.io/badge/pub-1.0.0%2B1-blue)](https://pub.dev/packages/flutter_colorize)
 [![Build Status](https://travis-ci.org/JonathanMonga/flutter_colorize.svg?branch=master)](https://travis-ci.org/JonathanMonga/flutter_colorize)
 
 ### Show some :heart: and star the repo to support the project
@@ -18,7 +18,7 @@ Add the Package
 
 ```yaml
 dependencies:
-  flutter_colorize: ^1.0.0
+  flutter_colorize: ^1.0.0+1
 ```
 
 # Usage
